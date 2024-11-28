@@ -71,7 +71,11 @@ namespace SenOtelFr
                 {
                     MessageBox.Show("Giriş Başarılı!");
                 }
+                else
+                {
+                    MessageBox.Show("Kullanıcı Bulunamadı!");
 
+                }
 
             }
             catch (Exception)
@@ -121,6 +125,7 @@ namespace SenOtelFr
 
                 throw;
             }
+            baglanti.Close();
         }
     }
 }

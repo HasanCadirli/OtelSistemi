@@ -60,7 +60,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.btn_sil = new System.Windows.Forms.Button();
-            this.btn_guncelle = new System.Windows.Forms.Button();
             this.btn_ara = new System.Windows.Forms.Button();
             this.btn_temizle = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -75,13 +74,10 @@
             this.btn_107 = new System.Windows.Forms.Button();
             this.btn_104 = new System.Windows.Forms.Button();
             this.btn_101 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.txt_RezNo = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.txt_tutar = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,7 +96,7 @@
             this.columnHeader10});
             this.listView1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(11, 373);
+            this.listView1.Location = new System.Drawing.Point(10, 373);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1009, 230);
             this.listView1.TabIndex = 0;
@@ -110,7 +106,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "MusteriId";
+            this.columnHeader1.Text = "RezNo";
             this.columnHeader1.Width = 95;
             // 
             // columnHeader2
@@ -353,26 +349,13 @@
             this.btn_sil.BackColor = System.Drawing.Color.Red;
             this.btn_sil.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_sil.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_sil.Location = new System.Drawing.Point(858, 147);
+            this.btn_sil.Location = new System.Drawing.Point(858, 100);
             this.btn_sil.Name = "btn_sil";
             this.btn_sil.Size = new System.Drawing.Size(171, 40);
             this.btn_sil.TabIndex = 29;
             this.btn_sil.Text = "Sil";
             this.btn_sil.UseVisualStyleBackColor = false;
             this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
-            // 
-            // btn_guncelle
-            // 
-            this.btn_guncelle.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.btn_guncelle.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_guncelle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_guncelle.Location = new System.Drawing.Point(858, 92);
-            this.btn_guncelle.Name = "btn_guncelle";
-            this.btn_guncelle.Size = new System.Drawing.Size(171, 39);
-            this.btn_guncelle.TabIndex = 30;
-            this.btn_guncelle.Text = "Güncelle";
-            this.btn_guncelle.UseVisualStyleBackColor = false;
-            this.btn_guncelle.Click += new System.EventHandler(this.btn_guncelle_Click);
             // 
             // btn_ara
             // 
@@ -391,7 +374,7 @@
             this.btn_temizle.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.btn_temizle.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_temizle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_temizle.Location = new System.Drawing.Point(858, 212);
+            this.btn_temizle.Location = new System.Drawing.Point(858, 165);
             this.btn_temizle.Name = "btn_temizle";
             this.btn_temizle.Size = new System.Drawing.Size(171, 39);
             this.btn_temizle.TabIndex = 32;
@@ -436,6 +419,7 @@
             this.groupBox2.TabIndex = 33;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Odalar";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btn_109
             // 
@@ -536,18 +520,6 @@
             this.btn_101.UseVisualStyleBackColor = false;
             this.btn_101.Click += new System.EventHandler(this.btn_101_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(421, 293);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 73);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Rezarvasyon Yap";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // txt_RezNo
             // 
             this.txt_RezNo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -561,7 +533,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(582, 295);
+            this.button2.Location = new System.Drawing.Point(535, 233);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 69);
             this.button2.TabIndex = 36;
@@ -592,41 +564,18 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // txt_tutar
-            // 
-            this.txt_tutar.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_tutar.Location = new System.Drawing.Point(532, 243);
-            this.txt_tutar.Name = "txt_tutar";
-            this.txt_tutar.Size = new System.Drawing.Size(226, 30);
-            this.txt_tutar.TabIndex = 40;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(450, 249);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 23);
-            this.label12.TabIndex = 39;
-            this.label12.Text = "Tutar";
-            // 
             // RezerveEtme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 753);
-            this.Controls.Add(this.txt_tutar);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txt_RezNo);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btn_temizle);
             this.Controls.Add(this.btn_ara);
-            this.Controls.Add(this.btn_guncelle);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.dtp_cikis);
             this.Controls.Add(this.dtp_giris);
@@ -693,7 +642,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btn_sil;
-        private System.Windows.Forms.Button btn_guncelle;
         private System.Windows.Forms.Button btn_ara;
         private System.Windows.Forms.Button btn_temizle;
         private System.Windows.Forms.Label label5;
@@ -708,12 +656,9 @@
         private System.Windows.Forms.Button btn_107;
         private System.Windows.Forms.Button btn_104;
         private System.Windows.Forms.Button btn_101;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txt_RezNo;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox txt_tutar;
-        private System.Windows.Forms.Label label12;
     }
 }

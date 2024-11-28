@@ -21,7 +21,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
 
                     string deleteQuery = "DELETE FROM Musteri WHERE MusteriId = @MusteriId";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
@@ -45,7 +48,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
 
                     string selectQuery = "SELECT * FROM Musteri";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -79,7 +85,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
 
                     string selectQuery = "SELECT * FROM Musteri";
 
@@ -119,9 +128,12 @@ namespace SenOtelFr
                 adapter.Fill(dataTable);
 
                 dataGridView12.DataSource = dataTable;
+                if (baglanti7.State==ConnectionState.Closed)
+                {
+                    baglanti7.Open();
+                }
 
-
-                baglanti7.Open();
+               
                 komut.ExecuteNonQuery();
 
             }
@@ -148,9 +160,12 @@ namespace SenOtelFr
                 adapter.Fill(dataTable);
 
                 dataGridView12.DataSource = dataTable;
+                if (baglanti7.State == ConnectionState.Closed)
+                {
+                    baglanti7.Open();
+                }
 
 
-                baglanti7.Open();
                 komut.ExecuteNonQuery();
 
             }
@@ -184,8 +199,12 @@ namespace SenOtelFr
 
                 dataGridView12.DataSource = dataTable;
 
+                if (baglanti7.State == ConnectionState.Closed)
+                {
+                    baglanti7.Open();
+                }
 
-                baglanti7.Open();
+
                 komut.ExecuteNonQuery();
 
             }

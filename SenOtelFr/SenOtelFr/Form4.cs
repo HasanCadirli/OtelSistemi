@@ -30,7 +30,11 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State==ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
+                    
 
                     string selectQuery = "SELECT * FROM Personel";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -57,8 +61,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
-
+                     if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
                     string deleteQuery = "DELETE FROM Personel WHERE PersonelNo = @PersonelNo";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                     {
@@ -166,23 +172,17 @@ namespace SenOtelFr
         {
             try
             {
-                // Bağlantı kapalıysa açın
                 if (baglanti4.State == ConnectionState.Closed)
                     baglanti4.Open();
 
-                // Veritabanından veri almak için bir veri adaptörü oluşturun
                 SqlDataAdapter da = new SqlDataAdapter(sorgu, baglanti4);
 
-                // Veriyi tutmak için bir DataTable oluşturun
                 DataTable dt = new DataTable();
 
-                // DataTable'ı veri adaptörüyle doldurun
                 da.Fill(dt);
 
-                // DataTable'ı DataGridView'e bağlayın
                 dataGridView1.DataSource = dt;
 
-                // Bağlantıyı kapatın
                 baglanti4.Close();
             }
             catch (Exception ex)

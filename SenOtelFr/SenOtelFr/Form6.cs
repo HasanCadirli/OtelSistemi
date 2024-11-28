@@ -27,7 +27,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
 
                     string selectQuery = "SELECT * FROM Personel";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -54,7 +57,10 @@ namespace SenOtelFr
             {
                 using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    connection.Open();
+                    if (connection.State == ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
 
                     string deleteQuery = "DELETE FROM Personel WHERE PersonelNo = @PersonelNo";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))

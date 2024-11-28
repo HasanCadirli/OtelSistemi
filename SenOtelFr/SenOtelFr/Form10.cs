@@ -47,7 +47,14 @@ namespace SenOtelFr
                 string dosyaYolu = textBox1.Text;
 
                 OleDbConnection baglanti = new OleDbConnection($"Provider=Microsoft.ACE.OLEDB.12.0;Data Source='{dosyaYolu}';Extended Properties='Excel 12.0 Xml;HDR=NO;IMEX=1;'");
-                baglanti.Open();
+                if (baglanti.State == ConnectionState.Closed)
+                {
+                    baglanti.Open();
+                }
+
+
+
+                
 
                 OleDbDataAdapter veriyukle = new OleDbDataAdapter("Select * from [Sayfa1$]", baglanti);
                 DataSet sd = new DataSet();
@@ -64,7 +71,13 @@ namespace SenOtelFr
         }
         void boslukDoldur()
         {
-            baglanti4.Open();
+            if (baglanti4.State == ConnectionState.Closed)
+            {
+                baglanti4.Open();
+            }
+
+
+            
             SqlDataAdapter da = new SqlDataAdapter("Select * from Musteri order by MusteriId",baglanti4);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -78,7 +91,12 @@ namespace SenOtelFr
 
         private void button3_Click(object sender, EventArgs e)
         {
-            baglanti4.Open();
+            if (baglanti4.State == ConnectionState.Closed)
+            {
+                baglanti4.Open();
+            }
+
+
             for (int i = 0; i <dataGridView1.Rows.Count; i++)
             {
                 SqlCommand cmd = new SqlCommand("insert into Musteri (KullaniciAdi,Ad,Soyad,TCKimlik,Adres,TelefonNumarasi,Sifre) values  ('"+dataGridView1.Rows[i].Cells[0].Value+ "','"+dataGridView1.Rows[i].Cells[1].Value+ "','"+dataGridView1.Rows[i].Cells[2].Value+ "','"+dataGridView1.Rows[i].Cells[3].Value+ "','"+dataGridView1.Rows[i].Cells[4].Value+ "','"+dataGridView1.Rows[i].Cells[5].Value+ "','"+dataGridView1.Rows[i].Cells[6].Value+"')", baglanti4);

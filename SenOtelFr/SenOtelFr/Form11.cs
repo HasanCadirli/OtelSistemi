@@ -33,7 +33,13 @@ namespace SenOtelFr
 
         private void Form11_Load(object sender, EventArgs e)
         {
-            baglanti4.Open();
+            if (baglanti4.State==ConnectionState.Closed)
+            {
+                baglanti4.Open();
+            }
+
+
+            
             SqlDataAdapter da = new SqlDataAdapter("Select * from SilinenMusteriLog order by MusteriId", baglanti4);
             DataTable dt = new DataTable();
             da.Fill(dt);

@@ -58,7 +58,7 @@
             // txt_adara
             // 
             this.txt_adara.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_adara.Location = new System.Drawing.Point(134, 43);
+            this.txt_adara.Location = new System.Drawing.Point(153, 47);
             this.txt_adara.Name = "txt_adara";
             this.txt_adara.Size = new System.Drawing.Size(202, 30);
             this.txt_adara.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(134, 96);
+            this.button1.Location = new System.Drawing.Point(153, 96);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 41);
             this.button1.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(478, 96);
+            this.button2.Location = new System.Drawing.Point(511, 96);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(202, 41);
             this.button2.TabIndex = 4;
@@ -90,7 +90,7 @@
             // txt_soyadara
             // 
             this.txt_soyadara.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_soyadara.Location = new System.Drawing.Point(478, 41);
+            this.txt_soyadara.Location = new System.Drawing.Point(511, 47);
             this.txt_soyadara.Name = "txt_soyadara";
             this.txt_soyadara.Size = new System.Drawing.Size(202, 30);
             this.txt_soyadara.TabIndex = 3;
@@ -109,7 +109,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(361, 46);
+            this.label1.Location = new System.Drawing.Point(375, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 23);
             this.label1.TabIndex = 6;
@@ -119,7 +119,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(731, 44);
+            this.label2.Location = new System.Drawing.Point(745, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 23);
             this.label2.TabIndex = 9;
@@ -130,7 +130,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(828, 96);
+            this.button3.Location = new System.Drawing.Point(858, 96);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(202, 41);
             this.button3.TabIndex = 8;
@@ -141,7 +141,7 @@
             // txt_id
             // 
             this.txt_id.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_id.Location = new System.Drawing.Point(828, 43);
+            this.txt_id.Location = new System.Drawing.Point(858, 44);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(202, 30);
             this.txt_id.TabIndex = 7;

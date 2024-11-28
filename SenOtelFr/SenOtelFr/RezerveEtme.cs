@@ -28,6 +28,55 @@ namespace Form1
 
 
 
+       
+
+
+
+
+
+
+        private void SilmeIslemi(int id)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                {
+                    if (connection.State== ConnectionState.Closed)
+                    {
+                        connection.Open();
+                    }
+                    
+
+                    string deleteQuery = "DELETE FROM Personel WHERE PersonelNo = @PersonelNo";
+                    using (SqlCommand command = new SqlCommand(deleteQuery, connection))
+                    {
+                        command.Parameters.AddWithValue("@PersonelNo", id);
+                        command.ExecuteNonQuery();
+                    }
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Silme işlemi başarısız oldu: " + ex.Message);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         internal bool IsValidPhoneNumber(string phoneNumber)
         {
             if (phoneNumber.All(char.IsDigit))
@@ -72,6 +121,11 @@ namespace Form1
         {
             if (baglanti.State == ConnectionState.Closed)
                 baglanti.Open();
+
+
+         
+
+
 
 
             for (int i = 101; i < 110; i++)
@@ -206,10 +260,28 @@ namespace Form1
         private void btn_sil_Click(object sender, EventArgs e)
         {
             
+
             if (baglanti.State == ConnectionState.Closed)
                 baglanti.Open();
+
+
+
+            if (listView1.SelectedItems.Count > 0)
+            {
+                int itemIndex = listView1.SelectedItems[0].Index;
+
+                if (itemIndex >= 0 && itemIndex < listView1.Items.Count)
+                {
+                    listView1.Items.RemoveAt(itemIndex);
+                }
+            }
+
+
+
             for (int i = 101; i < 110; i++)
             {
+
+
                 string a = Convert.ToString(i);
 
                 if (txt_odaNo.Text == a)
@@ -323,7 +395,12 @@ namespace Form1
         {
 
             listView1.Items.Clear();
-            baglanti.Open();
+            if (baglanti.State==ConnectionState.Closed)
+            {
+                baglanti.Open();
+
+            }
+            
             SqlCommand komut = new SqlCommand("select * from Rezarvasyonn where Adi like '%" + txt_arananIsim.Text+"%'", baglanti);
             SqlDataReader oku = komut.ExecuteReader();
 
@@ -653,9 +730,9 @@ namespace Form1
 
 
             string[] array1 = new string[10];
-            array1[0] = txt_RezNo.Text;
-            array1[2] = txt_adi.Text.Trim();
-            array1[1] = txt_soyAdi.Text.Trim();
+           array1[0] = txt_RezNo.Text;
+            array1[1] = txt_adi.Text.Trim();
+            array1[2] = txt_soyAdi.Text.Trim();
 
             array1[3] = combox_cinsiyet.Text.Trim();
             array1[4] = txt_telefon.Text.Trim();
@@ -709,7 +786,7 @@ namespace Form1
 
             DateTime bugun = DateTime.Today;
 
-            if (girisTarihi > bugun && cikisTarihi > girisTarihi && girisTarihi != cikisTarihi)
+            if (girisTarihi >= bugun && cikisTarihi > girisTarihi && girisTarihi != cikisTarihi)
             {
                 komutEkle.ExecuteNonQuery();
                 baglanti.Close();
@@ -749,6 +826,11 @@ namespace Form1
             Form4 form = new Form4();
             form.Show();
             this.Hide();
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
