@@ -25,12 +25,9 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
 
                     string selectQuery = "SELECT * FROM Personel";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -55,12 +52,9 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
 
                     string deleteQuery = "DELETE FROM Personel WHERE PersonelNo = @PersonelNo";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
@@ -89,7 +83,7 @@ namespace SenOtelFr
         {
             InitializeComponent();
         }
-        public static string constring4 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring4 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti4 = new SqlConnection(constring4);
         public string sorgu = "SELECT * FROM Personel";
 

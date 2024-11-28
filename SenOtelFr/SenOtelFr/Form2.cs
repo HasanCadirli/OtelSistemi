@@ -50,7 +50,7 @@ namespace SenOtelFr
         {
             InitializeComponent();
         }
-        public static string constring1 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring1 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti1 = new SqlConnection(constring1);
         private void textBox1_TextChanged(object sender, EventArgs e)
         {

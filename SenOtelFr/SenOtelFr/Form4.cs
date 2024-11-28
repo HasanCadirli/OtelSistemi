@@ -28,13 +28,9 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State==ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
-                    
+                    connection.Open();
 
                     string selectQuery = "SELECT * FROM Personel";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -59,12 +55,10 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                     if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
+
                     string deleteQuery = "DELETE FROM Personel WHERE PersonelNo = @PersonelNo";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                     {
@@ -157,9 +151,9 @@ namespace SenOtelFr
 
 
 
-        public static string constring2 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring2 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti2 = new SqlConnection(constring2);
-        public static string constring4 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring4 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti4 = new SqlConnection(constring4);
         public string sorgu = "SELECT * FROM Personel";
         private void Form4_Load(object sender, EventArgs e)
@@ -172,17 +166,23 @@ namespace SenOtelFr
         {
             try
             {
+                // Bağlantı kapalıysa açın
                 if (baglanti4.State == ConnectionState.Closed)
                     baglanti4.Open();
 
+                // Veritabanından veri almak için bir veri adaptörü oluşturun
                 SqlDataAdapter da = new SqlDataAdapter(sorgu, baglanti4);
 
+                // Veriyi tutmak için bir DataTable oluşturun
                 DataTable dt = new DataTable();
 
+                // DataTable'ı veri adaptörüyle doldurun
                 da.Fill(dt);
 
+                // DataTable'ı DataGridView'e bağlayın
                 dataGridView1.DataSource = dt;
 
+                // Bağlantıyı kapatın
                 baglanti4.Close();
             }
             catch (Exception ex)

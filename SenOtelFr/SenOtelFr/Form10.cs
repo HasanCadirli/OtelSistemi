@@ -13,7 +13,7 @@ namespace SenOtelFr
 {
     public partial class Form10 : Form
     {
-        public static string constring4 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring4 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti4 = new SqlConnection(constring4);
 
         public Form10()
@@ -47,14 +47,7 @@ namespace SenOtelFr
                 string dosyaYolu = textBox1.Text;
 
                 OleDbConnection baglanti = new OleDbConnection($"Provider=Microsoft.ACE.OLEDB.12.0;Data Source='{dosyaYolu}';Extended Properties='Excel 12.0 Xml;HDR=NO;IMEX=1;'");
-                if (baglanti.State == ConnectionState.Closed)
-                {
-                    baglanti.Open();
-                }
-
-
-
-                
+                baglanti.Open();
 
                 OleDbDataAdapter veriyukle = new OleDbDataAdapter("Select * from [Sayfa1$]", baglanti);
                 DataSet sd = new DataSet();
@@ -71,13 +64,7 @@ namespace SenOtelFr
         }
         void boslukDoldur()
         {
-            if (baglanti4.State == ConnectionState.Closed)
-            {
-                baglanti4.Open();
-            }
-
-
-            
+            baglanti4.Open();
             SqlDataAdapter da = new SqlDataAdapter("Select * from Musteri order by MusteriId",baglanti4);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -91,12 +78,7 @@ namespace SenOtelFr
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (baglanti4.State == ConnectionState.Closed)
-            {
-                baglanti4.Open();
-            }
-
-
+            baglanti4.Open();
             for (int i = 0; i <dataGridView1.Rows.Count; i++)
             {
                 SqlCommand cmd = new SqlCommand("insert into Musteri (KullaniciAdi,Ad,Soyad,TCKimlik,Adres,TelefonNumarasi,Sifre) values  ('"+dataGridView1.Rows[i].Cells[0].Value+ "','"+dataGridView1.Rows[i].Cells[1].Value+ "','"+dataGridView1.Rows[i].Cells[2].Value+ "','"+dataGridView1.Rows[i].Cells[3].Value+ "','"+dataGridView1.Rows[i].Cells[4].Value+ "','"+dataGridView1.Rows[i].Cells[5].Value+ "','"+dataGridView1.Rows[i].Cells[6].Value+"')", baglanti4);

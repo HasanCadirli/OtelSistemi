@@ -26,7 +26,7 @@ namespace SenOtelFr.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Securit" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Securit" +
             "y=True")]
         public string SenOtelConnectionString {
             get {
@@ -37,7 +37,7 @@ namespace SenOtelFr.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=deneme;Integrated Security" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=deneme;Integrated Security" +
             "=True")]
         public string denemeConnectionString {
             get {

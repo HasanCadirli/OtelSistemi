@@ -17,7 +17,7 @@ namespace SenOtelFr
         {
             InitializeComponent();
         }
-        public static string constring4 = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring4 = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti4 = new SqlConnection(constring4);
         private void button4_Click(object sender, EventArgs e)
         {
@@ -33,13 +33,7 @@ namespace SenOtelFr
 
         private void Form11_Load(object sender, EventArgs e)
         {
-            if (baglanti4.State==ConnectionState.Closed)
-            {
-                baglanti4.Open();
-            }
-
-
-            
+            baglanti4.Open();
             SqlDataAdapter da = new SqlDataAdapter("Select * from SilinenMusteriLog order by MusteriId", baglanti4);
             DataTable dt = new DataTable();
             da.Fill(dt);

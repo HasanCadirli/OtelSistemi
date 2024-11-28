@@ -19,7 +19,7 @@ namespace Form1
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-8KA05UA\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-RMQVPG2\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
 
         private void verileriGoster()

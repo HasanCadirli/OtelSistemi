@@ -46,7 +46,7 @@
             this.txt_kullanici.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_kullanici.Location = new System.Drawing.Point(160, 300);
             this.txt_kullanici.Name = "txt_kullanici";
-            this.txt_kullanici.Size = new System.Drawing.Size(151, 30);
+            this.txt_kullanici.Size = new System.Drawing.Size(131, 30);
             this.txt_kullanici.TabIndex = 0;
             this.txt_kullanici.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -82,7 +82,7 @@
             this.txt_sifre.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_sifre.Location = new System.Drawing.Point(160, 362);
             this.txt_sifre.Name = "txt_sifre";
-            this.txt_sifre.Size = new System.Drawing.Size(151, 30);
+            this.txt_sifre.Size = new System.Drawing.Size(131, 30);
             this.txt_sifre.TabIndex = 1;
             this.txt_sifre.UseSystemPasswordChar = true;
             this.txt_sifre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -93,7 +93,7 @@
             this.btn_giris.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_giris.Location = new System.Drawing.Point(160, 411);
             this.btn_giris.Name = "btn_giris";
-            this.btn_giris.Size = new System.Drawing.Size(151, 41);
+            this.btn_giris.Size = new System.Drawing.Size(131, 41);
             this.btn_giris.TabIndex = 2;
             this.btn_giris.Text = "Giriş";
             this.btn_giris.UseVisualStyleBackColor = false;
@@ -105,7 +105,7 @@
             this.btn_kayit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_kayit.Location = new System.Drawing.Point(160, 468);
             this.btn_kayit.Name = "btn_kayit";
-            this.btn_kayit.Size = new System.Drawing.Size(151, 39);
+            this.btn_kayit.Size = new System.Drawing.Size(131, 39);
             this.btn_kayit.TabIndex = 3;
             this.btn_kayit.Text = "Kayıt Ol";
             this.btn_kayit.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             this.btn_personel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_personel.Location = new System.Drawing.Point(160, 526);
             this.btn_personel.Name = "btn_personel";
-            this.btn_personel.Size = new System.Drawing.Size(151, 45);
+            this.btn_personel.Size = new System.Drawing.Size(131, 45);
             this.btn_personel.TabIndex = 4;
             this.btn_personel.Text = "Personel Girişi";
             this.btn_personel.UseVisualStyleBackColor = false;

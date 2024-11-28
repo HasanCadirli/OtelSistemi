@@ -21,7 +21,7 @@ namespace SenOtelFr
         string admin = "Admin";
         string adminSifre = "6212";
 
-        public static string constring = "Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string constring = "Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         SqlConnection baglanti=new SqlConnection(constring);
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -58,24 +58,20 @@ namespace SenOtelFr
                 SqlDataAdapter da=new SqlDataAdapter(komut);
                 da.Fill(dt);
 
-             
 
 
-                  if (txt_kullanici.Text.Trim()==admin && txt_sifre.Text.Trim()==adminSifre)
-                {
-                    Form4 adminsayfasi = new Form4();
-                    adminsayfasi.Show();
-                    this.Hide();
-                }
-                else if (dt.Rows.Count>0)
+
+				if (txt_kullanici.Text.Trim()==admin && txt_sifre.Text.Trim()==adminSifre)
+				{
+					Form4 adminsayfasi = new Form4();
+					adminsayfasi.Show();
+					this.Hide();
+				}
+				else if (dt.Rows.Count>0)
                 {
                     MessageBox.Show("Giriş Başarılı!");
                 }
-                else
-                {
-                    MessageBox.Show("Kullanıcı Bulunamadı!");
 
-                }
 
             }
             catch (Exception)
@@ -125,7 +121,6 @@ namespace SenOtelFr
 
                 throw;
             }
-            baglanti.Close();
         }
     }
 }

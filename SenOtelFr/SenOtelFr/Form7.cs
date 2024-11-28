@@ -19,12 +19,9 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
 
                     string deleteQuery = "DELETE FROM Musteri WHERE MusteriId = @MusteriId";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
@@ -46,12 +43,9 @@ namespace SenOtelFr
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
 
                     string selectQuery = "SELECT * FROM Musteri";
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
@@ -83,12 +77,9 @@ namespace SenOtelFr
 
             try
             {
-                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+                using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
                 {
-                    if (connection.State == ConnectionState.Closed)
-                    {
-                        connection.Open();
-                    }
+                    connection.Open();
 
                     string selectQuery = "SELECT * FROM Musteri";
 
@@ -118,7 +109,7 @@ namespace SenOtelFr
         {
             try
             {
-                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
                 SqlCommand komut = new SqlCommand("AdAra",baglanti7);
                 komut.CommandType= CommandType.StoredProcedure;
                 komut.Parameters.AddWithValue("@ArananAd",txt_adara.Text);
@@ -128,12 +119,9 @@ namespace SenOtelFr
                 adapter.Fill(dataTable);
 
                 dataGridView12.DataSource = dataTable;
-                if (baglanti7.State==ConnectionState.Closed)
-                {
-                    baglanti7.Open();
-                }
 
-               
+
+                baglanti7.Open();
                 komut.ExecuteNonQuery();
 
             }
@@ -150,7 +138,7 @@ namespace SenOtelFr
         {
             try
             {
-                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
                 SqlCommand komut = new SqlCommand("SoyadAra", baglanti7);
                 komut.CommandType = CommandType.StoredProcedure;
                 komut.Parameters.AddWithValue("@ArananSoyad", txt_soyadara.Text);
@@ -160,12 +148,9 @@ namespace SenOtelFr
                 adapter.Fill(dataTable);
 
                 dataGridView12.DataSource = dataTable;
-                if (baglanti7.State == ConnectionState.Closed)
-                {
-                    baglanti7.Open();
-                }
 
 
+                baglanti7.Open();
                 komut.ExecuteNonQuery();
 
             }
@@ -188,7 +173,7 @@ namespace SenOtelFr
 
             try
             {
-                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-8KA05UA\\SQLEXPRESS;Initial Catalog=SenOtel;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                SqlConnection baglanti7 = new SqlConnection("Data Source=DESKTOP-RMQVPG2\\SQLEXPRESS;Initial Catalog=SenOtell;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
                 SqlCommand komut = new SqlCommand("SearchByID", baglanti7);
                 komut.CommandType = CommandType.StoredProcedure;
                 komut.Parameters.AddWithValue("@ID", txt_id.Text);
@@ -199,12 +184,8 @@ namespace SenOtelFr
 
                 dataGridView12.DataSource = dataTable;
 
-                if (baglanti7.State == ConnectionState.Closed)
-                {
-                    baglanti7.Open();
-                }
 
-
+                baglanti7.Open();
                 komut.ExecuteNonQuery();
 
             }

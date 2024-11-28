@@ -1,94 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\",
+  "WorkspaceRootPath": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\frmmusteriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|c:\\users\\sikot\\documents\\github\\otelsistemi\\senotelfr\\senotelfr\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|c:\\users\\ilhan\\source\\repos\\otelsistemi-main\\senotelfr\\senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\rezerveetme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\rezerveetme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\rezerveetme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\senotelfr\\senoteldataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\senoteldataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\senotelfr\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7593897F-046A-46A5-91F8-B8C81901D897}|SenOtelFr\\SenOtelFr.csproj|solutionrelative:senotelfr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,277 +34,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form11.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form11.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form11.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form11.cs",
-              "RelativeToolTip": "SenOtelFr\\Form11.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIA7wBcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T12:24:28.965Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form12.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form12.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form12.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form12.cs",
-              "RelativeToolTip": "SenOtelFr\\Form12.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:18:24.17Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form4.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form4.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form4.cs",
-              "RelativeToolTip": "SenOtelFr\\Form4.cs",
-              "ViewState": "AQIAAMEBAAAAAAAAAIA8wNEBAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:11:58.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Form12.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form12.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form12.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form12.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form12.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:11:36.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SenOtelDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\SenOtelDataSet.xsd",
-              "RelativeDocumentMoniker": "SenOtelFr\\SenOtelDataSet.xsd",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\SenOtelDataSet.xsd",
-              "RelativeToolTip": "SenOtelFr\\SenOtelDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-11-23T10:57:56.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RezerveEtme.designer.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.designer.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\RezerveEtme.designer.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.designer.cs",
-              "RelativeToolTip": "SenOtelFr\\RezerveEtme.designer.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:57:13.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RezerveEtme.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\RezerveEtme.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
-              "RelativeToolTip": "SenOtelFr\\RezerveEtme.cs",
-              "ViewState": "AQIAAH4CAAAAAAAAAAArwHoCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:32:31.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RezerveEtme.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\RezerveEtme.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\RezerveEtme.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:32:22.684Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmMusteriler.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\FrmMusteriler.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\FrmMusteriler.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\FrmMusteriler.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\FrmMusteriler.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:31:44.055Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form9.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form9.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form9.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form9.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form9.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:30:11.394Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form8.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form8.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form8.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form8.cs",
-              "RelativeToolTip": "SenOtelFr\\Form8.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAIwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:30:04.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form8.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form8.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form8.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form8.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form8.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:30:00.04Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form7.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form7.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form7.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form7.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form7.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:58.661Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form5.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form5.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form5.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form5.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form5.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:55.977Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Form4.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form4.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form4.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form4.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form4.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:54.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form2.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form2.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form2.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form2.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form2.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:51.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form6.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form6.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form6.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form6.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form6.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:45.42Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form3.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form3.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form3.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form3.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form3.cs [Tasar\u0131m]",
+              "Title": "RezerveEtme.cs",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\RezerveEtme.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
+              "RelativeToolTip": "SenOtelFr\\RezerveEtme.cs",
+              "ViewState": "AQIAAL4CAAAAAAAAAAAqwNsCAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:43.478Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form11.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form11.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form11.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form11.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form11.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:42.177Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form10.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form10.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form10.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form10.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form10.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:29:39.745Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form1.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form1.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form1.cs",
-              "RelativeToolTip": "SenOtelFr\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:29:13.22Z",
+              "WhenOpened": "2024-11-23T10:39:28.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Form1.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form1.cs",
-              "RelativeDocumentMoniker": "SenOtelFr\\Form1.cs",
-              "ToolTip": "C:\\Users\\sikot\\Documents\\GitHub\\OtelSistemi\\SenOtelFr\\SenOtelFr\\Form1.cs [Tasar\u0131m]",
-              "RelativeToolTip": "SenOtelFr\\Form1.cs [Tasar\u0131m]",
+              "DocumentIndex": 1,
+              "Title": "RezerveEtme.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\RezerveEtme.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\RezerveEtme.cs [Design]",
+              "RelativeToolTip": "SenOtelFr\\RezerveEtme.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:28:53.553Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-11-23T10:37:07.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form9.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form9.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\Form9.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form9.cs [Design]",
+              "RelativeToolTip": "SenOtelFr\\Form9.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:37:38.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form4.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\Form4.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form4.cs",
+              "RelativeToolTip": "SenOtelFr\\Form4.cs",
+              "ViewState": "AQIAAI0BAAAAAAAAAAAEwKUBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:37:00.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form4.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\Form4.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form4.cs [Design]",
+              "RelativeToolTip": "SenOtelFr\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:36:56.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form1.cs",
+              "RelativeDocumentMoniker": "SenOtelFr\\Form1.cs",
+              "ToolTip": "C:\\Users\\Ilhan\\source\\repos\\OtelSistemi-main\\SenOtelFr\\SenOtelFr\\Form1.cs",
+              "RelativeToolTip": "SenOtelFr\\Form1.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA1wD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:35:56.873Z"
             }
           ]
         }

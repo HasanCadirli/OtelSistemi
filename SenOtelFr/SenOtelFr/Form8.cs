@@ -38,5 +38,21 @@ namespace SenOtelFr
             donus.Show();
             this.Hide();
         }
-    }
+
+		private void btn_101_Click(object sender, EventArgs e)
+		{
+
+		}
+
+        // Otel Doluluk Oranı PDF
+		private void button3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void btn_107_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
